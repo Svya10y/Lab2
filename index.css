@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 24px 40px 40px;
+    background-color: #161a3a;
+    background-image:
+        linear-gradient(rgba(124, 140, 255, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(124, 140, 255, 0.07) 1px, transparent 1px);
+    background-size: 32px 32px;
+    font-family: "Segoe UI", Inter, Roboto, Arial, sans-serif;
+    color: #eef0ff;
+}
+
+h1 {
+    /* заголовок первого уровня - шрифт с засечками */
+    font-family: "Times New Roman", Georgia, serif;
+    margin: 18px 0 8px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #c9cdf2;
+}
+
+h3 {
+    font-weight: 600;
+    color: #ffb547;
+}
+
+table {
+    border-collapse: collapse;
+    /* ширина таблицы на 100% экрана */
+    width: 100%;
+    margin-top: 10px;
+    background: #1f2550;
+}
+
+p, h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h4 {
+    /* размер шрифта подзаголовков четвертого уровня изменен с 14px на 18px */
+    font-size: 18px;
+    color: #b9c2ff;
+}
+
+ul, ol {
+    margin: 0;
+    color: #dfe2fb;
+}
+
+table tr td, table tr th {
+    padding: 8px 10px;
+    border: 1px solid #2e3670;
+    text-align: left;
+}
+
+table tr th {
+    background: #262d63;
+    color: #ffffff;
+}
+
+img {
+    /* картинка высотой 30px */
+    height: 30px;
+    width: auto;
+}
